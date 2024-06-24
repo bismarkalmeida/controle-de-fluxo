@@ -10,13 +10,11 @@ public class Contador {
             
             System.out.println("Digite o segundo parâmetro");
             int segundoNumero = terminal.nextInt();
-	
-		
 		
 			//chamando o método contendo a lógica de contagem
 			contar(primeiroNumero, segundoNumero);
 		
-		}catch (ParametrosInvalidosException exception) {
+		} catch (ParametrosInvalidosException exception) {
 			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
 			System.out.println("O primeiro dígito é maior do que o segundo...");
 		} catch (InputMismatchException exception) {
